@@ -36,7 +36,7 @@ h5{
     border-color: #128C7E;
 }
 #floatingTextarea{
-    resize: vertical;
+    resize: auto;
 }
 #enviar{
     box-shadow: 5px 5px 18px -8px #202020;
@@ -50,4 +50,5 @@ h5{
     box-shadow: none;
     border-color: var(--verde);
     background-color: var(--verde);
+    color: #F8F9FA;
 }
