@@ -38,8 +38,15 @@ h5{
 #floatingTextarea{
     resize: vertical;
 }
+#enviar{
+    box-shadow: 5px 5px 18px -8px #202020;
+}
 #enviar:hover{
     background-color: #F8F9FA;
     color: var(--verde);
     border-color: var(--verde);
+}
+#enviar:focus{
+    box-shadow: none;
+    border-color: #128C7E;
 }
