@@ -1,4 +1,4 @@
-function enviar(){
+function enviarMensagem(){
     var ddd = document.getElementById('ddd').value;
     var telefone = document.getElementById('telefone').value;
     var mensagem = document.getElementById('floatingTextarea').value;
@@ -7,7 +7,6 @@ function enviar(){
     console.log(texto)
 
     var url = "https://api.whatsapp.com/send?phone=+55" + ddd + telefone + "&text=" + texto
-    
 
     window.open(url)
 
