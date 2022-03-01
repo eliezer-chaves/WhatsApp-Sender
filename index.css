@@ -1,0 +1,45 @@
+:root{
+    --verde: #128C7E;
+}
+.cor-verde{
+    background-color: var(--verde);
+}
+body{
+    font-family: sans-serif;
+    background-color: var(--verde);
+}
+h2{
+    color: #ddd;
+    font-size: 2.5rem;
+}
+h5{
+    color: #1d1d1d;
+}
+#box{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#ddd:focus{
+    box-shadow: none;
+    border-color: var(--verde);
+}
+#telefone:focus{
+    box-shadow: none;
+    border-color: #128C7E;
+}
+#floatingTextarea:focus{
+    box-shadow: none;
+    border-color: #128C7E;
+}
+#floatingTextarea{
+    resize: vertical;
+}
+#enviar:hover{
+    background-color: #F8F9FA;
+    color: var(--verde);
+    border-color: var(--verde);
+}
