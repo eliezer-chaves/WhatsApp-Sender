@@ -52,3 +52,9 @@ h5{
     background-color: var(--verde);
     color: #F8F9FA;
 }
+#enviar:active{
+    box-shadow: none;
+    border-color: var(--verde);
+    background-color: var(--verde);
+    color: #F8F9FA;
+}
