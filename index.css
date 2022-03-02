@@ -1,15 +1,13 @@
 :root{
     --verde: #128C7E;
 }
-.cor-verde{
-    background-color: var(--verde);
-}
+
 body{
     font-family: sans-serif;
-    background-color: var(--verde);
+    background: rgb(1, 161, 135);  
 }
 h2{
-    color: #ddd;
+    color: white;
     font-size: 2.5rem;
 }
 h5{
@@ -38,23 +36,13 @@ h5{
 #floatingTextarea{
     resize: auto;
 }
-#enviar{
+.sombra{
     box-shadow: 5px 5px 18px -8px #202020;
 }
-#enviar:hover{
-    background-color: #F8F9FA;
-    color: var(--verde);
-    border-color: var(--verde);
+.button{
+    border: none;
+    background-color: #075E54;
 }
-#enviar:focus{
-    box-shadow: none;
-    border-color: var(--verde);
-    background-color: var(--verde);
-    color: #F8F9FA;
-}
-#enviar:active{
-    box-shadow: none;
-    border-color: var(--verde);
-    background-color: var(--verde);
-    color: #F8F9FA;
+.button:hover{
+    background-color: rgb(1, 161, 135);
 }
