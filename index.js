@@ -4,7 +4,6 @@ function enviarMensagem(){
     var mensagem = document.getElementById('floatingTextarea').value;
     var texto = mensagem.split(' ').join('%20')
     
-    var url = "https://api.whatsapp.com/send?phone=+55" + ddd + telefone + "&text=" + texto
     var url = "https://wa.me/+55"+ ddd + telefone + "?text="+ texto
 
     window.open(url)
