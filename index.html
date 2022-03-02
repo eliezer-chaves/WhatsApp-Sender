@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <script type="text/javascript" src="/Web Projects/WhatsApp-Sender/index.js"></script>
+  
 
     <div id="box" class="container w-100">
       <div class="mb-5">
@@ -68,23 +68,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    
-    <script>
-    function enviarMensagem(){
-      var ddd = document.getElementById('ddd').value;
-      var telefone = document.getElementById('telefone').value;
-      var mensagem = document.getElementById('floatingTextarea').value;
-      var texto = mensagem.split(' ').join('%20')
-      
-      var url = "https://wa.me/+55"+ ddd + telefone + "?text="+ texto
-  
-      window.open(url)
-  
-      ddd.value = "";
-      telefone.value = "";
-      mensagem.value = "";
-  }
-  
-  </script>
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
