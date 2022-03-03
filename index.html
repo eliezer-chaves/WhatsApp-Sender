@@ -32,11 +32,20 @@
                 <div class="row mb-4">
                     <div class="col-4">
                       <label class="form-label mb-2" for="">*DDD:</label>
-                      <input class="form-control" type="text" name="input_telefone" id="ddd" value=""/>
+                      <input 
+                      class="form-control" 
+                      type="text" 
+                      maxlength="2" 
+                      onkeypress="return event.charCode >= 48 && event.charCode <= 57" 
+                      name="input_telefone" 
+                      id="ddd" 
+                      value=""/>
                     </div>
                     <div class="col-8">
                       <label class="form-label" for="">*Telefone:</label>
                       <input
+                        onkeypress="return event.charCode >= 48 && event.charCode <= 57"
+                        maxlength="9"
                         value=""
                         class="form-control"
                         type="text"
