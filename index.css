@@ -46,3 +46,8 @@ h5{
 .button:hover{
     background-color: rgb(1, 161, 135);
 }
+.button:focus{
+    background-color: rgb(1, 161, 135);
+    border: none;
+    box-shadow: none;
+}
