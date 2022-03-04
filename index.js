@@ -9,6 +9,7 @@
 
         if (ddd == '' || telefone == ''){
             alert("Informe todos os campos");
+
             return;
         }
         else if (ddd.length != 2 || telefone.length != 9){
