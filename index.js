@@ -100,4 +100,5 @@ function telefone_validation(telefone) {
 
     //se passar por todas as validações acima, então está tudo certo
     return true;
+    //https://gist.github.com/jonathangoncalves/7bdec924e9bd2bdf353d6b7520820b62 --- créditos
 }
