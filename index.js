@@ -95,6 +95,10 @@ function telefone_validation(telefone) {
     //Caso queira, em 2017, é só tirar o if.
     if (new Date().getFullYear() < 2017) return true;
     if (telefone.length == 10 && [2, 3, 4, 5, 7].indexOf(parseInt(telefone.substring(2, 3))) == -1) return false;
+    
+    // Implementando regex a função
+    var regex = new RegExp('^((1[1-9])|([2-9][0-9]))((3[0-9]{3}[0-9]{4})|(9[0-9]{3}[0-9]{5}))$'); 
+    if (regex.test(telefone) == false) return false;
 
     //se passar por todas as validações acima, então está tudo certo
     return true;
