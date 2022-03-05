@@ -36,7 +36,7 @@
                       class="form-control" 
                       type="tel" 
                       maxlength="2" 
-                      onkeypress="return event.charCode >= 48 && event.charCode <= 57" 
+                      onkeypress="validaInput()"
                       name="input_telefone" 
                       id="ddd" 
                       value=""/>
@@ -45,7 +45,7 @@
                       <label class="form-label" for="">Telefone:</label>
                       <input
                       autocomplete="off"
-                        onkeypress="return event.charCode >= 48 && event.charCode <= 57"
+                      onkeypress="validaInput()"
                         maxlength="9"
                         value=""
                         class="form-control"

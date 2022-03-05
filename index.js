@@ -59,3 +59,6 @@ function limpaCampos(){
 function setFocus(){
     document.getElementById('ddd').focus();
 }
+function validaInput(){
+    return charCode >= 48 && charCode <= 57
+}
