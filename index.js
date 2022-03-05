@@ -1,4 +1,4 @@
-    function enviarMensagem(){
+function enviarMensagem(){
         var ddd = String(document.getElementById('ddd').value);
         var telefone = String(document.getElementById('telefone').value);
         var mensagem = String(document.getElementById('floatingTextarea').value); 
