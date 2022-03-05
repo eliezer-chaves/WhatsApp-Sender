@@ -18,8 +18,6 @@
 
         if (telefone_validation(phoneNumber)){
             var url = "https://wa.me/+55"+ phoneNumber + "?text="+ texto;
-            document.getElementById('ddd').style.borderColor = "#128C7E";
-            document.getElementById('telefone').style.borderColor = "#128C7E";
             window.open(url);
             limpaCampos();
         }
