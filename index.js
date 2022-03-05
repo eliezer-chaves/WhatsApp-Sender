@@ -16,7 +16,7 @@
             return;
         }
 
-        if (telefone_validation(phoneNumber)){
+        if (validatePhone(phoneNumber)){
             var url = "https://wa.me/+55"+ phoneNumber + "?text="+ texto;
             window.open(url);
             limpaCampos();
