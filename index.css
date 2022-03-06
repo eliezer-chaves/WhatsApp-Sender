@@ -3,6 +3,7 @@
 }
 
 body{
+    height: 90vh;
     font-family: sans-serif;
     background: rgb(1, 161, 135);  
 }
@@ -14,7 +15,7 @@ h5{
     color: #1d1d1d;
 }
 #box{
-    height: 100vh;
+    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
